@@ -20,9 +20,15 @@ body{
 }
 
 
+.notFooter{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    
+}
 
 
-
+/*Upper third of the website*/
 
 
 .upperpart{
@@ -77,7 +83,7 @@ margin-left: 200px;
 
 
 
-
+/*middle part*/
 
 
 
@@ -113,6 +119,7 @@ align-items: center;
     width: 200px;
 }
 
+/*Quote section*/
 
 .quote{
     margin-top: 100px;
@@ -140,38 +147,54 @@ font-size: 30px;
     font-weight: bold;
 }
 
+
+
+
+/*lower third*/
+
+
+
+
 .callToAction-Section{
 display: flex;
 justify-content: center;
 
 }
 .callToAction{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     margin-top: 80px;
-    width:900px;
+    width:600px;
     height: 100px;
     border-radius: 8px;
     background-color: #3882f6;
     margin-bottom: 60px;
     font-size: 20px;
-    
-    
+    justify-content: space-evenly;
 }
 
-.signUpButton{
-    padding: 6.5px;
-    width: 100px;
-    background-color: #3882f6;
-    border-radius: 7px;
-    border-width: 0px;
-    color: white;
+.cTAtext p{
+    font-size: 17px;
 }
+
+.cTAtext{
+    color:#E5E7Eb;
+}
+
 
 .callToAction .signUpButton{
     border-color: white;
     border-width: 2px;
 
 }
+
+
+
+
+
+/*Footer*/
+
 
 
 footer{
@@ -183,12 +206,20 @@ footer{
     color:#E5E7Eb;
 }
 
-.notFooter{
-    display: flex;
-    flex-direction: column;
-    flex:1;
-    
+
+
+/*Button and Link styling*/
+
+.signUpButton{
+    padding: 6.5px;
+    width: 100px;
+    background-color: #3882f6;
+    border-radius: 7px;
+    border-width: 0px;
+    color: white;
 }
+
+
 
 a:link{
     color: #E5E7Eb;
